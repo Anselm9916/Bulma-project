@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/bulma/css/bulma.min.css">
+    <title>Document</title>
+</head>
+<body class="has-background-light has-text-dark">
+    <section class="section">
+        <div class="container box has-background-info has-text-white">
+            <img src="logo_white.jpg" alt="logo">
+            <h2 class="subtitle is-light has-text-white">
+                <strong class="has-text-white">Doelen Page</strong>   
+            </h2>
+        </div>
+
+        <div class="columns">
+            <div class="column is-half">
+                <div class="dropdown is-hoverable">
+                    <div class="dropdown-trigger">
+                        <button class="button is-info" aria-haspopup="true" aria-controls="dropdown-menu3">
+                            <span>Click me</span>
+                            <span class="icon is-small">
+                                <i class="fas fa-angle-down" aria-hidden="true"></i>
+                            </span>
+                        </button>
+                    </div>
+                    <div class="dropdown-menu" id="dropdown-menu3" role="menu">
+                        <div class="dropdown-content">
+                            <a href="index3.html" class="dropdown-item has-text-info">caoches</a>
+                            <a href="#" class="dropdown-item has-text-info">Modifiers</a>
+                       
+                            <hr class="dropdown-divider">
+                            <a href="index2.html" class="dropdown-item has-text-info">Log In</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="columns">
+                    <div class="column">
+                        <table class="type-text has-text-dark">
+                            <tr>
+                                <th class="has-text-dark">Doelen Dag 1:</th>
+                            </tr>
+                            <tr>
+                                <td contenteditable="true">
+                                    <input type="text" placeholder="doel 1">
+                                    <p class="notification is-info has-text-light">Type jouw doelen hier:</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <table class="type-text has-text-dark">
+                            <tr>
+                                <th class="has-text-dark">Doelen Dag 2:</th>
+                            </tr>
+                            <tr>
+                                <td contenteditable="true">
+                                    <p class="notification is-info has-text-light">Type jouw doelen hier:</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <table class="type-text has-text-dark">
+                            <tr>
+                                <th class="has-text-dark">Doelen Dag 3:</th>
+                            </tr>
+                            <tr>
+                                <td contenteditable="true">
+                                    <p class="notification is-info has-text-light">Type jouw doelen hier:</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Repeat the above structure for Doelen Dag 2, 3, and 4 -->
+
+                <button class="button is-success is-small is-rounded has-text-dark">Submit Doelen</button>
+            </div>
+
+            <div class="column is-half">
+                <div class="box has-        background-info">
+                    <h2 class="subtitle has-text-light">Agenda</h2>
+                    <ul class="has-text-light">
+                        <li>Ma - 09:00/17.00</li>
+                        <li>Di - 09:00/17.00</li>
+                        <li>Wo - 09:00/17.00</li>
+                        <li>Do - 09:00/17.00</li>
+                        <li>Vr - 09:00/17.00</li>
+                        <li>Za - Weekend</li>
+                        <li>Zo - Weekend</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
